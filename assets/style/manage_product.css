@@ -1,0 +1,123 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #f0f4f7;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.form-container {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.375rem;
+    padding: 2rem;
+    max-width: 30rem;
+    text-align: center;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 0.375rem;
+    color: #4B5563;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    outline: none;
+}
+
+.form-container button {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 1rem;
+}
+
+.form-container button:hover {
+    background-color: #2563EB;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+th, td {
+    padding: 0.5rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+th {
+    background-color: #F3F4F6;
+    font-weight: 600;
+}
+
+td {
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+.action-buttons form {
+    display: inline;
+}
+
+.action-buttons button {
+    margin-right: 0.5rem;
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 1rem;
+}
+
+.action-buttons .update-button {
+    margin-right: 0.5rem;
+    background-color: #3c72a5; 
+    color: #FFFFFF;
+}
+
+.action-buttons .delete-button {
+    background-color: #F44336; 
+    color: #FFFFFF;
+}
+
+.action-buttons .checkout-button {
+    background-color: #4CAF50; 
+    color: #FFFFFF;
+}
+
